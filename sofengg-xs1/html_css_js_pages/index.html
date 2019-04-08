@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DLSU-Tour</title>
+	<script src="http://code.jquery.com/jquery-3.3.1.js"
+  			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  			crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<div class="menu">
+		<span class="toggle">
+			<i></i>
+			<i></i>
+			<i></i>
+		</span>
+		<div class="logo">
+			<img src="images/logo.png">
+		</div>
+		<div class="menucontent">
+			<ul>
+				<li ><a href="#" class="links">Home</a></li>
+				<li ><a href="about.html" class="links">About Us</a></li>
+				<li class="hoverItem"><a href="navigation.html" class="links">Navigations</a>
+					<div class="hoverMenu">
+						<ul>
+							<li>Milagros R. Del Rosario Building</li>
+							<li>George S. K. Ty Advanced Instrumentation Building</li>
+							<li>One Mission Park</li>
+							<li>Track field</li>
+							<li>Dormitory</li>
+						</ul>
+					</div>
+				</li>
+				<li class="hoverItem">Shuttle
+					<div class="hoverMenu">
+						<ul>
+							<li id=oncampus>Ejeep On-campus</li>
+							<li id=lagcentral>Shuttle Service</li>
+							<li id=taftcampus>Arrows Express Service</li>
+						</ul>
+					</div>
+				</li>
+				<li ><a href="faq.html" class="links">FAQs</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="galleryContainer"> 
+		<div class="ssContainer">
+			<div class="leftArrow" onclick="plusSlides(-1)"><span class="arrow arrowLeft"></span></div>
+			<div class="rightArrow" onclick="plusSlides(1)"><span class="arrow arrowRight"></span></div>
+
+			<div class="captionHolder"><p class="captionText"></p></div>
+
+			<div class="imageHolder">
+				<img src="images/mrr_building.jpg" width="1296" height="615">
+				<p class="captionText">Milagros R. Del Rosario Building (MRR)</p>
+			</div>
+			<div class="imageHolder">
+				<img src="images/gt_building.jpg" width="1296" height="615">
+				<p class="captionText">George S. K. Ty Advanced Instrumentation Building (GT)</p>
+			</div>
+			<div class="imageHolder">
+				<img src="images/dormitory.jpg" width="1296" height="615">
+				<p class="captionText">Dormitory</p>
+			</div>
+			<div class="imageHolder">
+				<img src="images/track.png" width="1296" height="615">
+				<p class="captionText">Track field</p>
+			</div>
+		</div>
+		<div id="dotsContainer"></div>
+	</div>
+	<div class="textContainer">
+		<h1>The De La Salle University Laguna Campus.</h1>
+		<h4>Situated on a secured 50-hectare campus, the Laguna campus of De La Salle University is envisioned to become a key resource for scientifi­c and technological advancements in the country, underscoring the Lasallian tradition that integrates faith and service through knowledge generation.</h4>
+		<h4>With the campus’ proximity to Laguna Technopark that houses manufacturing giants, research collaborations with industrial neighbors can be made possible. DLSU’s partnerships with international institutions can also provide opportunities for S&T projects that are geared towards ­finding solutions to global challenges.</h4>
+		<h4>The campus is also accessible to and from nearby commercial districts such as Nuvali and Paseo de Santa Rosa. Improved road infrastructure and public transport can also provide better commute to and from Metro Manila and nearby Tagaytay City. Free shuttle services at designated points in Manila are offered to all students and faculty.</h4>
+		<h4>With a comprehensive master plan in infrastructure development within a living, breathing environment, the campus is opening its doors for a brighter future.</h4>
+	</div>
+	<div class="mapContainer">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247314.44012557363!2d120.8835053794101!3d14.410546971252511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd7d7af18405ff%3A0x8d40985968975a91!2sDe+La+Salle+University+-+Laguna+Campus!5e0!3m2!1sen!2sph!4v1523350139790" width="1275" height="450" frameborder="0" style="border: 0px; pointer-events: none;" class="map" allowfullscreen>
+		</iframe>
+	</div>
+
+	<div class="bg-modal">
+		<div class="modal-content">
+			<div class="close">+</div>
+			<img src="images/ONCAMPUS.png" width="475" height="655">
+		</div>
+	</div>
+
+	<div class="bg-modal2">
+		<div class="modal-content">
+			<div class="close2">+</div>
+			<img src="images/LCENTRAL.png" width="475" height="655">
+		</div>
+	</div>
+
+	<div class="bg-modal3">
+		<div class="modal-content">
+			<div class="close3">+</div>
+			<img src="images/TAFT.png" width="475" height="655">
+		</div>
+	</div>	
+
+	<script>
+		$('.toggle').on('click', function(){
+
+			$('.menu').toggleClass('active');
+		});
+	</script>
+	<script src="myScript.js"></script>
+</body>
+</html>
