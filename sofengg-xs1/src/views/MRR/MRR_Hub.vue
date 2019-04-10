@@ -1,7 +1,7 @@
 <template>
   <v-card>
     <v-img :src="require('@/assets/MRR/STUDENTHUB.png')">
-      <MapNavbar :guide="'Directions for Canteen goes here'"
+      <MapNavbar :guide="['-It is located at the second floor of MRR Building.','-Upon arrival at the second floor of the building, via stairs or elevator (located at the right side of the stairs), proceed to the left side of the building.','-The Student Hub is the room at the leftmost side of the building, before the Fire Exit.']"
                  :Image1="require('@/assets/ONE_MISSION_PARK.png')"
                  :Image2="require('@/assets/MRR/CLINIC_ROOM.png')"
                  :Image3="require('@/assets/MRR/DLSUSTORE.png')"

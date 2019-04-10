@@ -1,8 +1,7 @@
 <template>
   <v-card>
     <v-img :src="require('@/assets/MRR/MRR_WALKPATH_1.png')">
-      <MapNavbar :guide="'Directions for Canteen goes here'"
-                 :Image1="require('@/assets/ONE_MISSION_PARK.png')"
+      <MapNavbar :Image1="require('@/assets/ONE_MISSION_PARK.png')"
                  :Image2="require('@/assets/MRR/CLINIC_ROOM.png')"
                  :Image3="require('@/assets/MRR/DLSUSTORE.png')"
                  :Image4="require('@/assets/MRR/ELAB_A.png')"

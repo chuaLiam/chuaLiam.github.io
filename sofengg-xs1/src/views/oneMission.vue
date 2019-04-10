@@ -1,7 +1,7 @@
 <template>
   <v-card>
     <v-img :src="require('@/assets/ONE_MISSION_PARK.png')">
-      <MapNavbar :guide="'Directions for Canteen goes here'"
+      <MapNavbar :guide="['-One Mission Park is located just across the East Canopy Entrance.','-Another exit is accessible located just at the main hall of the MRR Ground Floor and you can just go straight from there and make your way to One Mission Park.']"
                  :Image1="require('@/assets/ONE_MISSION_PARK.png')"
                  :Image2="require('@/assets/MRR/CLINIC_ROOM.png')"
                  :Image3="require('@/assets/MRR/DLSUSTORE.png')"

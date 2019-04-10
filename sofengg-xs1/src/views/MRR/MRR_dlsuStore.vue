@@ -1,7 +1,7 @@
 <template>
   <v-card>
     <v-img :src="require('@/assets/MRR/DLSUSTORE.png')">
-      <MapNavbar :guide="'Directions for Canteen goes here'"
+      <MapNavbar :guide="['-It is located at the first floor of MRR Building.','-Upon arrival at the East Canopy of MRR Building, proceed to the right hallway. The DLSU Store is the room on the right after the stairs and elevator.']"
                  :Image1="require('@/assets/ONE_MISSION_PARK.png')"
                  :Image2="require('@/assets/MRR/CLINIC_ROOM.png')"
                  :Image3="require('@/assets/MRR/DLSUSTORE.png')"

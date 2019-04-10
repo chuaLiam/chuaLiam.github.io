@@ -1,7 +1,7 @@
 <template>
   <v-card>
     <v-img :src="require('@/assets/MRR/CLINIC_ROOM.png')">
-      <MapNavbar :guide="'Directions for Canteen goes here'"
+      <MapNavbar :guide="['-It is located at the first floor of MRR Building.','-Upon arrival at the East Canopy of MRR Building, proceed to the left hallway. The Clinic is the room at the leftmost side of the hallway.']"
                  :Image1="require('@/assets/ONE_MISSION_PARK.png')"
                  :Image2="require('@/assets/MRR/CLINIC_ROOM.png')"
                  :Image3="require('@/assets/MRR/DLSUSTORE.png')"

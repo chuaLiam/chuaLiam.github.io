@@ -1,7 +1,7 @@
 <template>
   <v-card>
       <v-img :src="require('@/assets/GT/FUNSPACE.png')">
-          <MapNavbar :guide="'Directions for Canteen goes here'"
+          <MapNavbar :guide="['-It is located at the first floor of GT Building.','-The Fun Space is the fourth room on the left from the right of the GT Building Entrance.','-It is the room after the Second Collab Space.']"
                  :Image1="require('@/assets/GT/CANTEEN.png')"
                  :Image2="require('@/assets/GT/FUNSPACE.png')"
                  :Image3="require('@/assets/GT/COLLABSPACE.png')"

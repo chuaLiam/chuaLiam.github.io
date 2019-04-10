@@ -1,7 +1,7 @@
 <template>
   <v-card>
     <v-img :src="require('@/assets/GT/MPH.png')">
-      <MapNavbar :guide="'Directions for Canteen goes here'"
+      <MapNavbar :guide="['-It is located at the fourth floor of GT Building.', '-Upon arrival at the fourth floor of the building, via stairs or elevator (located at the left side of the stairs), the MPH is the first room at the left.',]"
                  :Image1="require('@/assets/GT/CANTEEN.png')"
                  :Image2="require('@/assets/GT/FUNSPACE.png')"
                  :Image3="require('@/assets/GT/COLLABSPACE.png')"

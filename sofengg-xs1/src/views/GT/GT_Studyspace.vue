@@ -1,7 +1,7 @@
 <template>
   <v-card>
     <v-img :src="require('@/assets/GT/STUDYSPACE.png')">
-      <MapNavbar :guide="'Directions for Canteen goes here'"
+      <MapNavbar :guide="['-Right across the back area of the GT Building, you can find the Oval here.']"
                  :Image1="require('@/assets/GT/CANTEEN.png')"
                  :Image2="require('@/assets/GT/FUNSPACE.png')"
                  :Image3="require('@/assets/GT/COLLABSPACE.png')"

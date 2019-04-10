@@ -1,7 +1,7 @@
 <template>
   <v-card>
     <v-img :src="require('@/assets/GT/GT_SHUTTLE_DROP_OFF.png')">
-      <MapNavbar :guide="'Directions for Canteen goes here'"
+      <MapNavbar :guide="['-This is where you will get dropped off if you take the On-Campus Shuttle at the MRR East Canopy.','-From the exit of the GT Building, you can find this at the right side of the building.',]"
                  :Image1="require('@/assets/GT/CANTEEN.png')"
                  :Image2="require('@/assets/GT/FUNSPACE.png')"
                  :Image3="require('@/assets/GT/COLLABSPACE.png')"

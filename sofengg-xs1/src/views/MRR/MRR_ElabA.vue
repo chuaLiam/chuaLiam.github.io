@@ -1,7 +1,7 @@
 <template>
   <v-card>
     <v-img :src="require('@/assets/MRR/ELAB_A.png')">
-      <MapNavbar :guide="'Directions for Canteen goes here'"
+      <MapNavbar :guide="['-It is located at the fourth floor of MRR Building.','-Upon arrival at the fourth floor of the building, via stairs or elevator (located at the right side of the stairs), ELab A is the room right infront of the elevator. It is beside ELab B']"
                  :Image1="require('@/assets/ONE_MISSION_PARK.png')"
                  :Image2="require('@/assets/MRR/CLINIC_ROOM.png')"
                  :Image3="require('@/assets/MRR/DLSUSTORE.png')"
