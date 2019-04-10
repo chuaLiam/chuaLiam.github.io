@@ -7,7 +7,13 @@
                  :Image3="require('@/assets/MRR/DLSUSTORE.png')"
                  :Image4="require('@/assets/MRR/ELAB_A.png')"
                  :Image5="require('@/assets/MRR/MRR_CANTEEN.png')"
-                 :Image6="require('@/assets/MRR/STUDENTHUB.png')" />
+                 :Image6="require('@/assets/MRR/STUDENTHUB.png')"
+                 :location1="'MRR_Hub'"
+                 :location2="'MRR_Canteen'"
+                 :location3="'MRR_ElabA'"
+                 :location4="'MRR_dlsuStore'"
+                 :location5="'MRR_clinicRoom'"
+                 :location6="'oneMission'" />
       <v-layout>
         <v-flex class="text-xs-center">
 

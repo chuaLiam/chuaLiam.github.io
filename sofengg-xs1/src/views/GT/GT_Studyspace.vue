@@ -3,11 +3,17 @@
     <v-img :src="require('@/assets/GT/STUDYSPACE.png')">
       <MapNavbar :guide="'Directions for Canteen goes here'"
                  :Image1="require('@/assets/GT/CANTEEN.png')"
-                 :Image2="require('@/assets/GT/STUDYSPACE.png')"
+                 :Image2="require('@/assets/GT/FUNSPACE.png')"
                  :Image3="require('@/assets/GT/COLLABSPACE.png')"
                  :Image4="require('@/assets/OVAL.png')"
                  :Image5="require('@/assets/GT/CLASSROOM.png')"
-                 :Image6="require('@/assets/GT/MPH.png')" />
+                 :Image6="require('@/assets/GT/MPH.png')"
+                 :location1="'GT_MPH'"
+                 :location2="'GT_Classroom'"
+                 :location3="'oval'"
+                 :location4="'GT_Collabspace'"
+                 :location5="'GT_Funspace'"
+                 :location6="'GT_Canteen'" />
       <v-layout>
         <v-flex class="text-xs-left">
           <Arrows_back :link="'/GT_BHallway'"/>

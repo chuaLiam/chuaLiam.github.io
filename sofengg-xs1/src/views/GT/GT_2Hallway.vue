@@ -1,13 +1,19 @@
 <template>
   <v-card>
     <v-img :src="require('@/assets/GT/GT_HALLWAY2.png')">
-      <MapNavbar :guide="'Directions for Second Floor Hallway goes here'"
-                 :Image1="require('@/assets/GT/CANTEEN.png')"
-                 :Image2="require('@/assets/GT/STUDYSPACE.png')"
-                 :Image3="require('@/assets/GT/COLLABSPACE.png')"
-                 :Image4="require('@/assets/OVAL.png')"
-                 :Image5="require('@/assets/GT/CLASSROOM.png')"
-                 :Image6="require('@/assets/GT/MPH.png')" />
+      <MapNavbar :guide="'Directions for Canteen goes here'"
+                 :Image1="require('@/assets/ONE_MISSION_PARK.png')"
+                 :Image2="require('@/assets/MRR/CLINIC_ROOM.png')"
+                 :Image3="require('@/assets/MRR/DLSUSTORE.png')"
+                 :Image4="require('@/assets/MRR/ELAB_A.png')"
+                 :Image5="require('@/assets/MRR/MRR_CANTEEN.png')"
+                 :Image6="require('@/assets/MRR/STUDENTHUB.png')"
+                 :location1="'MRR_Hub'"
+                 :location2="'MRR_Canteen'"
+                 :location3="'MRR_ElabA'"
+                 :location4="'MRR_dlsuStore'"
+                 :location5="'MRR_clinicRoom'"
+                 :location6="'oneMission'" />
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <br /> <br /> <br />
       <v-layout xs4>
         <v-flex class="text-xs-right">
