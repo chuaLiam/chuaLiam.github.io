@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>About Us</title>
+	<script src="http://code.jquery.com/jquery-3.3.1.js"
+  			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  			crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="menu">
+		<span class="toggle">
+			<i></i>
+			<i></i>
+			<i></i>
+		</span>
+		<div class="logo">
+			<img src="images/logo.png">
+		</div>
+		<div class="menucontent">
+			<ul>
+				<li ><a href="index.html" class="links">Home</a></li>
+				<li ><a href="about.html" class="links">About Us</a></li>
+				<li class="hoverItem"><a href="http://localhost:8080/" class="links" target="null">Navigations</a>
+					<div class="hoverMenu">
+						<ul>
+							<li><a href="http://localhost:8080/MRR_Building" class="links" target="null">Milagros R. Del Rosario Building</a></li>
+							<li><a href="http://localhost:8080/GT_Building" class="links" target="null">George S. K. Ty Advanced Instrumentation Building</a></li>
+							<li><a href="http://localhost:8080/oneMission" class="links" target="null">One Mission Park</a></li>
+							<li><a href="http://localhost:8080/oval" class="links" target="null">Track field</a></li>
+							<li><a href="http://localhost:8080/Arthaland_Building" class="links" target="null">Dormitory</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="hoverItem">Shuttle
+					<div class="hoverMenu">
+						<ul>
+							<li id=oncampus>Ejeep On-campus</li>
+							<li id=lagcentral>Shuttle Service</li>
+							<li id=taftcampus>Arrows Express Service</li>
+						</ul>
+					</div>
+				</li>
+				<li ><a href="faq.html" class="links">FAQs</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="aboutContainer">
+		<h2>Welcome To De La Salle University</h2>
+		<h1>YOUR NEXT GREAT IDEA!</h1>
+		<h4>De La Salle University Laguna Campus is envisioned to become a key resource for scientific and technological advancement in the country.</h4>
+
+		<h4>De La Salle University positions itself as a leader in molding human resources who serve the curch and the nation. The university is a hub for higher education training renowned for its academic excellence, prolific and relevant research, and involved community service.</h4>
+		<h4>With the campus' proximity to Laguna Technopark that houses manufacturing giants, research collaborations with industrial neighbors can be made possible. DLSU's partnership with international institutions can also provide opportunities for S&T projects that are geared towards finding solutions to global challenges.</h4>
+	</div>
+	<div class="parkContainer">
+		<img src="images/omp.jpg" width="1246" height="567">
+	</div>
+	<div class="liContainer">
+		<h1>Colleges</h1>
+		<li>Gokongwei College of Engineering</li>
+		<li>College of Computer Science Brother Andrew Gonzales</li>
+		<li>College of Education Ramon V. del Rosario College of Business</li>
+	</div>
+
+	<div class="bg-modal">
+		<div class="modal-content">
+			<div class="close">+</div>
+			<img src="images/ONCAMPUS.png" width="475" height="655">
+		</div>
+	</div>
+
+	<div class="bg-modal2">
+		<div class="modal-content">
+			<div class="close2">+</div>
+			<img src="images/LCENTRAL.png" width="475" height="655">
+		</div>
+	</div>
+
+	<div class="bg-modal3">
+		<div class="modal-content">
+			<div class="close3">+</div>
+			<img src="images/TAFT.png" width="475" height="655">
+		</div>
+	</div>	
+	<script>
+		$('.toggle').on('click', function(){
+
+			$('.menu').toggleClass('active');
+		});
+	</script>
+	<script src="myScript.js"></script>
+</body>
+</html>
