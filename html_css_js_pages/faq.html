@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FAQs</title>
+	<script src="http://code.jquery.com/jquery-3.3.1.js"
+  			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  			crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="menu">
+		<span class="toggle">
+			<i></i>
+			<i></i>
+			<i></i>
+		</span>
+		<div class="logo">
+			<img src="images/logo.png">
+		</div>
+		<div class="menucontent">
+			<ul>
+				<li ><a href="index.html" class="links">Home</a></li>
+				<li ><a href="about.html" class="links">About Us</a></li>
+				<li class="hoverItem"><a href="http://localhost:8080/" class="links" target="null">Navigations</a>
+					<div class="hoverMenu">
+						<ul>
+							<li><a href="http://localhost:8080/MRR_Building" class="links" target="null">Milagros R. Del Rosario Building</a></li>
+							<li><a href="http://localhost:8080/GT_Building" class="links" target="null">George S. K. Ty Advanced Instrumentation Building</a></li>
+							<li><a href="http://localhost:8080/oneMission" class="links" target="null">One Mission Park</a></li>
+							<li><a href="http://localhost:8080/oval" class="links" target="null">Track field</a></li>
+							<li><a href="http://localhost:8080/Arthaland_Building" class="links" target="null">Dormitory</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="hoverItem">Shuttle
+					<div class="hoverMenu">
+						<ul>
+							<li id=oncampus>Ejeep On-campus</li>
+							<li id=lagcentral>Shuttle Service</li>
+							<li id=taftcampus>Arrows Express Service</li>
+						</ul>
+					</div>
+				</li>
+				<li ><a href="faq.html" class="links">FAQs</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="faqContainer">
+		<h1>FAQs:</h1>
+		<h3>Q: Can a student spearhead a project in campus even without joining an organization?</h3>
+		<h4>A: Yes, if a student is interested in handling projects but doesn't want to join an existing organization, a student can volunteer to help the Office of Student Affairs with their projects. Ms. Ria, the current coordinator of Office of the student affairs, will glady help and assist the student in managing the said project.</h4>
+
+		<h3>Q: Are parents allowed to ride in the shuttle service provided by the university?</h3>
+		<h4>A: They can only ride the on-campus and the Laguna Campus to Laguna Central, and vice versa, shuttle services.</h4>
+
+		<h3>Q: Is the shuttle service free for students?</h3>
+		<h4>A: Yes, the shuttle service is free for students.</h4>
+
+		<h3>Q:  Are the Laguna Campus students allowed to enter the Manila Campus upon presentation of their IDs?</h3>
+		<h4>A: Since Manila and Laguna are considered as one institution, Laguna Campus students are allowed to enter the Manila Campus upon presentation of their IDs.</h4>
+
+		<h3>Q: Is there a shower room in the campus?</h3>
+		<h4>A: The shower rooms are located on the left side of the covered court & at the 2nd Flr Bathrooms in GT Building.</h4>
+
+		<h3>Q:  Are students enrolled in Laguna Campus allowed to make use of the facilities of the Manila Campus?</h3>
+		<h4>A: As one institution, Laguna Campus students are allowed to use the facilities in Manila such as the library, swimming pool, and others.</h4>
+
+		<h3>Q: Is cross-enrollment between Manila and Laguna Campus allowed?</h3>
+		<h4>A: Cross-enrollment is allowed.</h4>
+
+		<h3>Q:  Can a student have class in both Manila and Laguna Campus?</h3>
+		<h4>A: Yes, a Manila Campus student can enroll classes in Laguna Campus and a Laguna Campus sudent can enroll classes in Manila Campus.</h4>
+
+		<h3>Q: Can a student consult with the Guidance Counselor for personal matters?</h3>
+		<h4>A: The doors of the Laguna Campus Guidance Counselor is open for any student who needs help and guidance. Just set a schedule with the secretary and arrive on the appointed schedule.</h4>
+
+		<h3>Q: Which bathroom within the campus have bidets?</h3>
+		<h4>A: GT bathrooms</h4>
+	</div>
+
+	<div class="bg-modal">
+		<div class="modal-content">
+			<div class="close">+</div>
+			<img src="images/ONCAMPUS.png" width="475" height="655">
+		</div>
+	</div>
+
+	<div class="bg-modal2">
+		<div class="modal-content">
+			<div class="close2">+</div>
+			<img src="images/LCENTRAL.png" width="475" height="655">
+		</div>
+	</div>
+
+	<div class="bg-modal3">
+		<div class="modal-content">
+			<div class="close3">+</div>
+			<img src="images/TAFT.png" width="475" height="655">
+		</div>
+	</div>	
+	<script>
+		$('.toggle').on('click', function(){
+
+			$('.menu').toggleClass('active');
+		});
+	</script>
+	<script src="myScript.js"></script>
+</body>
+</html>
