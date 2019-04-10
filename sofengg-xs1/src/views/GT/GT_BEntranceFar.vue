@@ -46,10 +46,10 @@ import Arrows_right from '@/components/Arrows_right.vue'
 import Arrows_left from '@/components/Arrows_left.vue'
 
 export default {
-    components: { MapNavbar, Arrows_back, Arrows_forward, Arrows_right, Arrows_left },
-    data() {
-      return {
-      }
+  components: { MapNavbar, Arrows_back, Arrows_forward, Arrows_right, Arrows_left },
+  data () {
+    return {
+    }
   }
 }
 </script>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FAQs</title>
+	<script src="http://code.jquery.com/jquery-3.3.1.js"
+  			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  			crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="menu">
+		<span class="toggle">
+			<i></i>
+			<i></i>
+			<i></i>
+		</span>
+		<div class="logo">
+			<img src="images/logo.png">
+		</div>
+		<div class="menucontent">
+			<ul>
+				<li ><a href="index.html" class="links">Home</a></li>
+				<li ><a href="about.html" class="links">About Us</a></li>
+				<li class="hoverItem"><a href="navigation.html" class="links">Navigations</a>
+					<div class="hoverMenu">
+						<ul>
+							<li>Milagros R. Del Rosario Building</li>
+							<li>George S. K. Ty Advanced Instrumentation Building</li>
+							<li>One Mission Park</li>
+							<li>Track field</li>
+							<li>Dormitory</li>
+						</ul>
+					</div>
+				</li>
+				<li class="hoverItem"><a href="shuttle.html" class="links">Shuttle</a>
+					<div class="hoverMenu">
+						<ul>
+							<li><a href="shuttle.html#sched_1" class="links">Ejeep On-campus</a></li>
+							<li><a href="shuttle.html#sched_3" class="links">Shuttle Service</a></li>
+							<li><a href="shuttle.html#sched_2" class="links">Arrows Express Service</a></li>
+						</ul>
+					</div>
+				</li>
+				<li ><a href="#" class="links">FAQs</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="blank">
+		<img src="images/weirdFace.png">
+	</div>
+	<script>
+		$('.toggle').on('click', function(){
+
+			$('.menu').toggleClass('active');
+		});
+	</script>
+</body>
+</html>

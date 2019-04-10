@@ -44,6 +44,10 @@ import MRR_2Hallway3 from './views/MRR/MRR_2Hallway3.vue'
 import MRR_2Hallway4 from './views/MRR/MRR_2Hallway4.vue'
 import GT_Walkpath1 from './views/GT/GT_Walkpath1.vue'
 import GT_Walkpath2 from './views/GT/GT_Walkpath2.vue'
+import Arthaland_Entrance from './views/GT/Arthaland_Entrance.vue'
+import Arthaland_Building from './views/GT/Arthaland_Building.vue'
+import Arthaland_Room from './views/GT/Arthaland_Room.vue'
+import Arthaland_studyHall from './views/GT/Arthaland_studyHall.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -274,6 +278,26 @@ export default new Router({
       path: '/GT_Walkpath2',
       name: 'GT_Walkpath2',
       component: GT_Walkpath2
+    },
+    {
+      path: '/Arthaland_Entrance',
+      name: 'Arthaland_Entrance',
+      component: Arthaland_Entrance
+    },
+    {
+      path: '/Arthaland_Building',
+      name: 'Arthaland_Building',
+      component: Arthaland_Building
+    },
+    {
+      path: '/Arthaland_Room',
+      name: 'Arthaland_Room',
+      component: Arthaland_Room
+    },
+    {
+      path: '/Arthaland_studyHall',
+      name: 'Arthaland_studyHall',
+      component: Arthaland_studyHall
     }
   ]
 })

@@ -26,15 +26,14 @@
 </template>
 
 <script>
-  import MapNavbar from '@/components/MapNavbar.vue'
-  import Arrows_left from '@/components/Arrows_left.vue'
+import MapNavbar from '@/components/MapNavbar.vue'
+import Arrows_left from '@/components/Arrows_left.vue'
 
-  export default {
-    components: { MapNavbar, Arrows_left },
-    data() {
-      return {
-
-      }
+export default {
+  components: { MapNavbar, Arrows_left },
+  data () {
+    return {
     }
   }
+}
 </script>

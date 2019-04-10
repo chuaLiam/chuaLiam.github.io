@@ -64,30 +64,29 @@
 
 <script>
 import Directions from '../components/Directions.vue'
-
-  export default {
-    methods: {
-      clickMethod1() {
-        window.location.href = this.location1;
-      },
-      clickMethod2() {
-        window.location.href = this.location2;
-      },
-      clickMethod3() {
-        window.location.href = this.location3;
-      },
-      clickMethod4() {
-        window.location.href = this.location4;
-      },
-      clickMethod5() {
-        window.location.href = this.location5;
-      },
-      clickMethod6() {
-        window.location.href = this.location6;
-      }
+export default {
+  methods: {
+    clickMethod1 () {
+      window.location.href = this.location1
     },
-    components: { Directions },
-    props: ['guide', 'Image1', 'Image2', 'Image3', 'Image4', 'Image5', 'Image6', 'location1', 'location2', 'location3', 'location4', 'location5', 'location6'],
+    clickMethod2 () {
+      window.location.href = this.location2
+    },
+    clickMethod3 () {
+      window.location.href = this.location3
+    },
+    clickMethod4 () {
+      window.location.href = this.location4
+    },
+    clickMethod5 () {
+      window.location.href = this.location5
+    },
+    clickMethod6 () {
+      window.location.href = this.location6
+    }
+  },
+  components: { Directions },
+  props: ['guide', 'Image1', 'Image2', 'Image3', 'Image4', 'Image5', 'Image6', 'location1', 'location2', 'location3', 'location4', 'location5', 'location6'],
   data () {
     return {
       navCard: false
