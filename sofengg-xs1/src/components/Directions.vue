@@ -25,7 +25,9 @@
           </v-card-actions>
         </v-card-title>
         <v-card-text class="text-xs-left">
-          {{directions}}
+          <template v-for="(direction, index) in directions">
+            {{ direction }} <br />
+          </template>
         </v-card-text>
         <v-divider></v-divider>
       </v-card>
