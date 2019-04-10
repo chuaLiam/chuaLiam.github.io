@@ -10,7 +10,7 @@
                  :Image6="require('@/assets/GT/MPH.png')" />
       <v-layout>
         <v-flex class="text-xs-center">
-          <Arrows_forward :link="'/GT_Canteen'" />
+          <Arrows_forward :link="'/MRR_Walkpath1'" />
         </v-flex>
       </v-layout>
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <br /> <br /> <br />

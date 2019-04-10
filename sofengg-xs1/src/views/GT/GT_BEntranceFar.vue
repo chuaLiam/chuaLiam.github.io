@@ -19,7 +19,14 @@
           <Arrows_left :link="'/GT_EntranceShuttle'" />
         </v-flex>
         <v-flex class="text-xs-right">
-          <Arrows_right :link="'/GT_EntranceWalkway'" />
+          <Arrows_right :link="'/GT_Canteen'" />
+        </v-flex>
+      </v-layout>
+      <br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <br /> <br /> <br />
+      <v-layout>
+        <v-flex class="text-xs-center">
+          <Arrows_back :link="'GT_EntranceWalkway'" />
         </v-flex>
       </v-layout>
     </v-img>

@@ -7,7 +7,8 @@
                  :Image3="require('@/assets/GT/COLLABSPACE.png')"
                  :Image4="require('@/assets/OVAL.png')"
                  :Image5="require('@/assets/GT/CLASSROOM.png')"
-                 :Image6="require('@/assets/GT/MPH.png')"/>
+                 :Image6="require('@/assets/GT/MPH.png')"
+                 :location="'/GT_MPH'"/>
       <v-layout>
         <v-flex class="text-xs-center">
           <Arrows_forward :link="'/GT_BEntranceFar'" />

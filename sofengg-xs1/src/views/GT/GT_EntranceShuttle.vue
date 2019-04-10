@@ -10,13 +10,13 @@
                  :Image6="require('@/assets/GT/MPH.png')" />
       <v-layout>
         <v-flex class="text-xs-center">
-          <Arrows_forward :link="'/GT_BEntranceFar'" />
+          <Arrows_forward :link="'/MRR_sideEntrance'" />
         </v-flex>
       </v-layout>
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <br /> <br /> <br />
       <v-layout xs4>
         <v-flex class="text-xs-right">
-          <Arrows_right :link="'/GT_BEntranceFar'" />
+          <Arrows_right :link="'/Arthaland_Entrance'" />
         </v-flex>
       </v-layout>
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <br /> <br /> <br />

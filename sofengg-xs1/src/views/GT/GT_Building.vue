@@ -11,7 +11,7 @@
       <br /> <br /> <br /> <br />
           <v-layout>
             <v-flex class="text-xs-center">
-              <Arrows_back :link="'/GT_CANTEEN'" />
+              <Arrows_back :link="'/GT_EntranceWalkway'" />
             </v-flex>
           </v-layout>
     </v-img>

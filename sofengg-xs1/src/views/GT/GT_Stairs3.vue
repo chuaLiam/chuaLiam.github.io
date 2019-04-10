@@ -17,7 +17,7 @@
       <br /><br /><br /> <br /> <br /> <br />
       <v-layout xs4>
         <v-flex class="text-xs-right">
-          <Arrows_right :link="'/GT_Stairs2'" />
+          <Arrows_back :link="'/GT_Stairs2'" />
         </v-flex>
       </v-layout>
       <br /><br /><br /><br /><br /><br /><br /><br />
